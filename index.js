@@ -8,7 +8,7 @@ env.config();
 
 app.get("/", (req, res)=>{
     var me=randomSuperhero();
-    res.send(`im ${me}`);
+    res.send(`im ${me} gay`);
 })
 
 app.listen(process.env.PORT);
